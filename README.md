@@ -41,7 +41,7 @@ This mechanism relies on Terraform providers using HTTP libraries that pay atten
    ```yaml
    stacks:
      my-tailnet-stack:
-       runner_image: "ghcr.io/kriskit/spacelift-tailscale:v1.0.0"
+       runner_image: "ghcr.io/kriskit/spacelift-tailscale:v1.1.0"
    ```
 
 2. **Create Spacelift Context** with authentication variables:
@@ -115,7 +115,7 @@ stacks:
 ```yaml
 stacks:
   my-tailnet-stack:
-    runner_image: "ghcr.io/kriskit/spacelift-tailscale:v1.0.0"
+    runner_image: "ghcr.io/kriskit/spacelift-tailscale:v1.1.0"
 ```
 
 #### Image Optimization
